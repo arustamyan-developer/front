@@ -1,0 +1,17 @@
+//**************************************************
+//      Assets
+//**************************************************
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/animate.css/animate";
+@import "_base/reset";
+@import "_base/variables";
+
+// **************************************************
+//      Blocks
+//***************************************************
+@import "wrapper/wrapper";
+@import "header/header";
+@import "content/content";
+@import "game/game";
+@import "cv/cv";
+@import "footer/footer";

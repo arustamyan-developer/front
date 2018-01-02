@@ -1,0 +1,28 @@
+include head/head
+include header/header
+include footer/footer
+
+doctype html
+html(lang="ru")
+
+    block head
+        head
+            block info
+                +head({
+                    "title": "Home project",
+                    "author": "Dima Nazdratenko",
+                    "description": "Site CV"
+                })
+
+        body
+            div(class="wrapper")
+                div(class="wrapper_content")
+                    block header
+                        +header()
+
+                    div(class="content container")
+                        block content
+
+                block footer
+                    +footer()
+
